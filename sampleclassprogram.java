@@ -18,6 +18,10 @@ public class sampleclassprogram
 		return circumfrnce;
 	}
 
+	public String toString()
+	{
+		return "circumference" + "(circumfrnce)" ;
+	}
 	//main method
 	public static void main(String args[])
 	{
@@ -31,6 +35,6 @@ public class sampleclassprogram
 		double n1 = c1.circumference(radi);
 
 		//Display circumference
-		StdOut.printf("Circumference : %.2e\n", n1);
+		System.out.printf("Circumference : %.2e\n", n1);
 		}
 }
